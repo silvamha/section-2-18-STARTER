@@ -16,7 +16,11 @@
       </select>
 
       <input type="number" v-model="size" />
-
+      <!-- 
+  The first class is the default class
+  the binded class is the class that will be 
+  applied dynamically based on some condition
+ -->
       <div
         class="circle"
         :class="[selectedColor, circle_classes]"
